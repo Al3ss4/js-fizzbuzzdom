@@ -1,0 +1,25 @@
+
+
+
+
+/* creazione quadrati */
+
+#squares{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+.square{
+  background-color: #20b213;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
