@@ -36,4 +36,9 @@ for (let i = 1; i <= 100; i++) {
         div.classList.add("buzz");
         div.innerHTML = `buzz`;
     }
+
+    else if (i % 3 === 0 && i % 5 === 0) {
+        div.classList.add("fizzbuzz");
+        div.innerHTML = `fizzbuzz`;
+    }
 }
