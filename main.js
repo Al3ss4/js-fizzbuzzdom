@@ -30,4 +30,10 @@ for (let i = 1; i <= 100; i++) {
         div.classList.add("fizz");
         div.innerHTML = `fizz`;
     }
+
+    // MILESTONE 2
+    else if (i % 5 === 0) {
+        div.classList.add("buzz");
+        div.innerHTML = `buzz`;
+    }
 }
