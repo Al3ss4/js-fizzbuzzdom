@@ -24,21 +24,26 @@ for (let i = 1; i <= 100; i++) {
     div.append(i);
     square.append(div);
 
+    // MILESTONE 3
+
+    if (i % 3 === 0 && i % 5 === 0) {
+        div.classList.add("fizzbuzz");
+        div.innerHTML = `FizzBuzz`;
+    }
+
     // MILESTONE 1
 
-    if (i % 3 === 0) {
+    else if (i % 3 === 0) {
         div.classList.add("fizz");
-        div.innerHTML = `fizz`;
+        div.innerHTML = `Fizz`;
     }
 
-    // MILESTONE 2
+    // MILESTONE 1
+    
     else if (i % 5 === 0) {
         div.classList.add("buzz");
-        div.innerHTML = `buzz`;
+        div.innerHTML = `Buzz`;
     }
 
-    else if (i % 3 === 0 && i % 5 === 0) {
-        div.classList.add("fizzbuzz");
-        div.innerHTML = `fizzbuzz`;
-    }
+  
 }
