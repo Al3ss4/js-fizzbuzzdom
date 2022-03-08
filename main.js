@@ -23,4 +23,11 @@ for (let i = 1; i <= 100; i++) {
     div.classList.add("square");
     div.append(i);
     square.append(div);
+
+    // MILESTONE 1
+
+    if (i % 3 === 0) {
+        div.classList.add("fizz");
+        div.innerHTML = `fizz`;
+    }
 }
